@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 245, 232);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 65% 40%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+input[type="text"]{
+    width: 200px;
+    height: 40px;
+}
+.password{
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+.password p{
+    color: rgb(109, 139, 139);
+}
+.next{
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(109, 139, 139);
+    color: white;
+    box-shadow: 0px 4px 9px rgb(109, 139, 139);
+}
+.or{
+    color: grey;
+    margin-left: 120px;
+}
+.button1{
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+    width: 110px;
+    margin-left: 40px;
+}
+.logo{
+    width: 30px;
+    border-radius: 50px;
+}
+hr{
+    color: gray;
+    width: 350px;
+}
+.ssylka{
+    margin-left: 40px;
+}
+.water-img{
+    width: 280px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -20px;
+}
+span{
+    font-size: 25px;
+    margin-left: 680px;
+    margin-top: -500px;
+}
